@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RoDyLoad", "RoDyLoad\RoDyLoad.vcxproj", "{021B986D-6100-43DB-A578-2875F179C795}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RoDyLoadDll", "RoDyLoad\RoDyLoad.vcxproj", "{021B986D-6100-43DB-A578-2875F179C795}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Injector", "Injector\Injector.vcxproj", "{CFB22D5D-70A0-447A-92C3-39BCCAF57BF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{87EDA0B6-CD84-4AA3-95E1-4B1AA9AD4237}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +28,14 @@ Global
 		{021B986D-6100-43DB-A578-2875F179C795}.Release|x64.Build.0 = Release|x64
 		{021B986D-6100-43DB-A578-2875F179C795}.Release|x86.ActiveCfg = Release|Win32
 		{021B986D-6100-43DB-A578-2875F179C795}.Release|x86.Build.0 = Release|Win32
+		{CFB22D5D-70A0-447A-92C3-39BCCAF57BF0}.Debug|x64.ActiveCfg = Debug|x64
+		{CFB22D5D-70A0-447A-92C3-39BCCAF57BF0}.Debug|x64.Build.0 = Debug|x64
+		{CFB22D5D-70A0-447A-92C3-39BCCAF57BF0}.Debug|x86.ActiveCfg = Debug|Win32
+		{CFB22D5D-70A0-447A-92C3-39BCCAF57BF0}.Debug|x86.Build.0 = Debug|Win32
+		{CFB22D5D-70A0-447A-92C3-39BCCAF57BF0}.Release|x64.ActiveCfg = Release|x64
+		{CFB22D5D-70A0-447A-92C3-39BCCAF57BF0}.Release|x64.Build.0 = Release|x64
+		{CFB22D5D-70A0-447A-92C3-39BCCAF57BF0}.Release|x86.ActiveCfg = Release|Win32
+		{CFB22D5D-70A0-447A-92C3-39BCCAF57BF0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
